@@ -24,5 +24,6 @@ int main()
 		printf("姓名：%s 分数：%lf",p[i].name,p[i].score);
 	}
 	return 0;
+	free(p);
  } 
  
